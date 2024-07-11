@@ -1,16 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffff66; /* Warna kuning */
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
+    background: url('bg ui.jfif') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -19,6 +21,7 @@ body {
     color: white;
     padding: 20px 0;
     position: relative;
+    border-radius: 10px 10px 0 0;
 }
 
 .header h1 {
@@ -41,16 +44,18 @@ body {
 .content h2 {
     margin: 0;
     font-size: 28px;
+    font-weight: bold;
 }
 
-.content p {
-    margin: 5px 0;
+.content .info-item {
+    margin: 10px 0;
     font-size: 18px;
-    color: #666;
+    color: #333;
 }
 
 .info {
     text-align: left;
+    padding: 20px;
 }
 
 .info h3 {
@@ -76,3 +81,4 @@ body {
 .info ul li a:hover {
     text-decoration: underline;
 }
+
